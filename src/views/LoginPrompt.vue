@@ -36,9 +36,7 @@
       <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password">
     </div>
     <div class="flex items-center justify-between">
-      <router-link to="/newapplication" tag="button" class="bg-teal hover:bg-teal-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-        Register
-      </router-link>
+      <primary-button-link label="Register" route="/newapplication"></primary-button-link>
     </div>
   </form>
   </div>
@@ -60,9 +58,7 @@
       <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password">
     </div>
     <div class="flex items-center justify-between">
-      <button class="bg-teal hover:bg-teal-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-        Sign In
-      </button>
+      <primary-button-link label="Sign In" route="/newapplication"></primary-button-link>
       <a class="inline-block align-baseline font-bold text-sm text-teal hover:text-teal-darker" href="#">
         Forgot Password?
       </a>
@@ -73,8 +69,13 @@
 </div>
 </template>
 <script>
+import PrimaryButtonLink from '@/components/PrimaryButtonLink.vue';
+
 export default {
   name: 'LoginPrompt',
+  components: {
+    PrimaryButtonLink,
+  },
 };
 </script>
 

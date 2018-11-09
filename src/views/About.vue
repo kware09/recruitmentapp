@@ -8,8 +8,7 @@
                 <p class="text-lg">Software Developer</p>
                 <p class="text-sm text-grey-darker">Software Developer</p>
             </div>
-            <router-link to="/loginprompt" tag="button" class="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
-                type="button">Apply</router-link>
+            <primary-button-link label="Apply" route="/loginprompt"></primary-button-link>
         </div>
         <div class="w-full bg-white p-5">
             <div v-html="compiledMarkdown"></div>
@@ -22,6 +21,7 @@
 </template>
 <script>
 import markdown from '@/assets/data/data.json';
+import PrimaryButtonLink from '@/components/PrimaryButtonLink.vue';
 
 export default {
   name: 'About',
@@ -34,6 +34,9 @@ export default {
     compiledMarkdown() {
       return marked(unescape(markdown.markdown), { sanitize: true });
     },
+  },
+  components: {
+    PrimaryButtonLink,
   },
 };
 </script>
