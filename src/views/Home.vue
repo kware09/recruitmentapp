@@ -16,7 +16,7 @@ export default {
   name: 'home',
   components: {
     SearchBar,
-    Vacancy
+    Vacancy,
   },
 };
 </script>

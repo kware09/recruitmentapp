@@ -73,17 +73,7 @@
 </template>
 <script>
 export default {
-  name: "LoginPrompt",
-  data() {
-    return {
-      input: "# test"
-    };
-  },
-  computed: {
-    compiledMarkdown: function() {
-      return marked(this.input, { sanitize: true });
-    }
-  }
+  name: 'LoginPrompt',
 };
 </script>
 

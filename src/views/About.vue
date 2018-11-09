@@ -10,32 +10,23 @@
       <router-link to="/loginprompt" tag="button" class="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded" type="button">
       Apply
     </router-link></div>
-    
-
     <div class="w-full bg-white p-5">
       <h1 class="my-3"><a id="Requirements_18"></a>Job Description</h1>
       <p>We are looking for a passionate Software Engineer to design, develop and install software solutions.</p>
       <p>Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or <a href="http://JScript.NET">JScript.NET</a>.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.</p>
       <p>Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.</p>
-      
       <p>We are looking for a passionate Software Engineer to design, develop and install software solutions.</p>
       <p>Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or <a href="http://JScript.NET">JScript.NET</a>.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.</p>
       <p>Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.</p>
-      
       <p>We are looking for a passionate Software Engineer to design, develop and install software solutions.</p>
       <p>Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or <a href="http://JScript.NET">JScript.NET</a>.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.</p>
       <p>Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.</p>
-      
       <p>We are looking for a passionate Software Engineer to design, develop and install software solutions.</p>
       <p>Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or <a href="http://JScript.NET">JScript.NET</a>.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.</p>
       <p>Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.</p>
-      
       <p>We are looking for a passionate Software Engineer to design, develop and install software solutions.</p>
       <p>Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or <a href="http://JScript.NET">JScript.NET</a>.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.</p>
       <p>Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.</p>
-      
-      
-      
       <h1 class="my-3"><a id="Responsibilities_6"></a>Responsibilities</h1>
       <ul>
       <li>Execute full software development life cycle (SDLC)</li>
@@ -68,22 +59,12 @@
     </router-link>
     </div>
     </div>
-     
+
    </div>
 </template>
 <script>
 export default {
-  name: "About",
-  data() {
-    return {
-      input: "# test"
-    };
-  },
-  computed: {
-    compiledMarkdown: function() {
-      return marked(this.input, { sanitize: true });
-    }
-  }
+  name: 'About',
 };
 </script>
 

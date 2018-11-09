@@ -12,7 +12,7 @@
 </template>
 <script>
 export default {
-  name: "NewApplication",
+  name: 'NewApplication',
 };
 </script>
 

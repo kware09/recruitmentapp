@@ -65,17 +65,7 @@
 </template>
 <script>
 export default {
-  name: "JobDescription",
-  data() {
-    return {
-      input: "# test"
-    };
-  },
-  computed: {
-    compiledMarkdown: function() {
-      return marked(this.input, { sanitize: true });
-    }
-  }
+  name: 'JobDescription',
 };
 </script>
 

@@ -8,18 +8,18 @@
 </template>
 
 <script>
-    export default {
-        name: "Vacncy",
-        props: {
-            jobTitle: {
-                type: String
-            },
-            location: {
-                type: String
-            }
-            
-        },
-    }
+export default {
+  name: 'Vacncy',
+  props: {
+    jobTitle: {
+      type: String,
+    },
+    location: {
+      type: String,
+    },
+
+  },
+};
 </script>
 
 <style scoped>
